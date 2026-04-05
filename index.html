@@ -83,6 +83,9 @@ footer{padding:2rem 3rem;border-top:1px solid rgba(255,255,255,.05);display:flex
   <div class="hero-grid" style="max-width:980px;width:100%;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
     <!-- LEFT: 이름 + 소개 -->
     <div>
+      <div style="width:90px;height:90px;border-radius:50%;overflow:hidden;border:2px solid rgba(255,255,255,.12);margin-bottom:1.25rem;flex-shrink:0;">
+        <img src="photo.jpg" alt="양기원" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
+      </div>
       <h1 class="hero-title" style="font-size:clamp(4rem,10vw,8rem);">양<em>기</em>원</h1>
       <p class="hero-label" style="text-align:left;margin-bottom:1.5rem;">Business PM</p>
       <p class="hero-sub" style="text-align:left;margin:0 0 1.5rem;">AI와 Python으로 업무 효율성을 향상하고<br>데이터 기반 액션으로 글로벌 성과를 만드는 사업 PM</p>
@@ -173,7 +176,7 @@ footer{padding:2rem 3rem;border-top:1px solid rgba(255,255,255,.05);display:flex
     <div style="padding-left:2.5rem;">
       <p style="font-size:11px;font-weight:700;letter-spacing:3px;color:var(--muted);margin-bottom:1.25rem;text-transform:uppercase;">Contact</p>
       <p style="font-size:13px;font-weight:700;color:var(--white);margin-bottom:4px;">010-2985-6701</p>
-      <p style="font-size:11px;color:rgba(255,255,255,.35);">wony9595@naver.com</p>
+      <p style="font-size:11px;color:rgba(255,255,255,.35);"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3a4d555443030f030f7a545b4c5f4814595557">[email&#160;protected]</a></p>
     </div>
 
   </div>
@@ -265,12 +268,12 @@ footer{padding:2rem 3rem;border-top:1px solid rgba(255,255,255,.05);display:flex
             <div style="background:var(--gray-bg);padding:1.5rem 1.25rem;">
               <div style="font-size:15px;font-weight:700;color:#111;letter-spacing:.5px;margin-bottom:8px;">▪ 인앱 상품 등록 자동화</div>
               <div style="font-size:15px;font-weight:900;color:#111;line-height:1.4;">작업 시간 <span style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#2563eb;">80%</span> 감소</div>
-              <div style="font-size:12px;color:#888;line-height:1.7;margin-top:6px;">App Store Connect API 기반 자동화 프로그램 직접 구현.</div>
+              <div style="font-size:12px;color:#888;line-height:1.7;margin-top:6px;">App Store Connect API 기반 자동화 프로그램 직접 구현</div>
             </div>
             <div style="background:var(--gray-bg);padding:1.5rem 1.25rem;">
               <div style="font-size:15px;font-weight:700;color:#111;letter-spacing:.5px;margin-bottom:8px;">▪ IP 로열티 정산 자동화</div>
               <div style="font-size:15px;font-weight:900;color:#111;line-height:1.4;">작업 시간 <span style="font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#2563eb;">90%</span> 감소</div>
-              <div style="font-size:12px;color:#888;line-height:1.7;margin-top:6px;">Python 스크립트로 정산 프로세스 자동화.</div>
+              <div style="font-size:12px;color:#888;line-height:1.7;margin-top:6px;">Python 스크립트로 정산 프로세스 자동화</div>
             </div>
           </div>
         </div>
@@ -324,7 +327,7 @@ footer{padding:2rem 3rem;border-top:1px solid rgba(255,255,255,.05);display:flex
   <h2 class="contact-title">Let's<br><em>Connect</em></h2>
   <p class="contact-sub">새로운 기회와 협업을 기다립니다</p>
   <div class="contact-links">
-    <a href="mailto:wony9595@naver.com" class="clink accent">wony9595@naver.com</a>
+    <a href="/cdn-cgi/l/email-protection#077068697e3e323e324769667162752964686a" class="clink accent"><span class="__cf_email__" data-cfemail="dbacb4b5a2e2eee2ee9bb5baadbea9f5b8b4b6">[email&#160;protected]</span></a>
     <a href="tel:010-2985-6701" class="clink">010-2985-6701</a>
   </div>
 </section>
@@ -333,20 +336,10 @@ footer{padding:2rem 3rem;border-top:1px solid rgba(255,255,255,.05);display:flex
   <span>© <span id="footer-year"></span> YANG GI WON</span>
   <span>BUSINESS PM · GAME INDUSTRY</span>
 </footer>
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 function calcDuration(startYear, startMonth) {
   const now = new Date();
   const y = now.getFullYear(), m = now.getMonth() + 1;
   let years = y - startYear, months = m - startMonth;
   if (months < 0) { years--; months += 12; }
-  if (years > 0 && months > 0) return years + '년 ' + months + '개월';
-  if (years > 0) return years + '년';
-  return months + '개월';
-}
-const dur = calcDuration(2023, 8);
-document.getElementById('dur-actgames').textContent = dur;
-document.getElementById('dur-bubbles').textContent = dur;
-document.getElementById('footer-year').textContent = new Date().getFullYear();
-</script>
-</body>
-</html>
+  if (years > 0 && months > 0) return
